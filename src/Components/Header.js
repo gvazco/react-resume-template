@@ -10,34 +10,6 @@ class Header extends Component {
 
     return (
       <header id="home">
-        {/* <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Mostrar
-          </a>
-          <a className="mobile-btn" href="#home" title="Hide navigation">
-            Ocultar
-          </a>
-
-          <ul id="nav" className="nav">
-            <li className="current">
-              <a className="smoothscroll" href="#home">
-                Inicio
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#about">
-                Contacto
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contacto
-              </a>
-            </li>
-          </ul>
-        </nav> */}
-
         <div className="row banner">
           <div className="banner-text">
             <img className="logotipo" src={logotipo} alt="HRV-Logotipo" />
